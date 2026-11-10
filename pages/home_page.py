@@ -15,7 +15,7 @@ class HomePage(BasePage):
         self.search_result_count = page.get_by_test_id("search-result-count")
         # TODO B1.1: search_button, search_caption, search_completed, product_names
         # TODO B1.2: no_results
-        # TODO B1.7: sort_select, product_prices
+        # TODO B1.7: sort_select, sorting_completed, product_prices
         # TODO B2/B4 (later): price_slider_max = page.get_by_role("slider").nth(1)
 
     def open(self):
